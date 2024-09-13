@@ -1,0 +1,93 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teklifs",
+  "info": {
+    "singularName": "teklif",
+    "pluralName": "teklifs",
+    "displayName": "Teklif",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firma": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::firma.firma"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bilesenler": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.aku",
+        "shared.invertor",
+        "shared.panel"
+      ]
+    },
+    "musteri": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.musteri"
+    },
+    "teklif_il": {
+      "type": "string"
+    },
+    "teklif_ilce": {
+      "type": "string"
+    },
+    "teklif_tesisat_no": {
+      "type": "string"
+    },
+    "teklif_kurulum": {
+      "type": "enumeration",
+      "enum": [
+        "çatı",
+        "arazı",
+        "açık alan"
+      ]
+    },
+    "teklif_ac": {
+      "type": "decimal"
+    },
+    "teklif_dc": {
+      "type": "decimal"
+    },
+    "teklif_sistem": {
+      "type": "enumeration",
+      "enum": [
+        "sistem1"
+      ]
+    },
+    "teklif_tarihi": {
+      "type": "date"
+    },
+    "teklif_gecerlilik_tarihi": {
+      "type": "date"
+    },
+    "teklif_teslim_sure": {
+      "type": "integer"
+    },
+    "teklif_kw_fiyat": {
+      "type": "float"
+    },
+    "teklif_proje_fiyat": {
+      "type": "float"
+    },
+    "teklif_para_birim": {
+      "type": "enumeration",
+      "enum": [
+        "USD",
+        "TRY",
+        "EURO"
+      ],
+      "default": "USD"
+    }
+  }
+}

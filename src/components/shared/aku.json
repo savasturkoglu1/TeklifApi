@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_akus",
+  "info": {
+    "displayName": "Aku",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "akus": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::aku.aku"
+    },
+    "adet": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "panellers",
+  "info": {
+    "singularName": "paneller",
+    "pluralName": "panellers",
+    "displayName": "Paneller",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "panel_marka": {
+      "type": "string"
+    },
+    "panel_fiyat": {
+      "type": "string"
+    },
+    "panel_model": {
+      "type": "string"
+    },
+    "panel_olcu": {
+      "type": "string"
+    }
+  }
+}

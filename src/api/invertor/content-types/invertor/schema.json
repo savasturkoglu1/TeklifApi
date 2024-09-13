@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invertors",
+  "info": {
+    "singularName": "invertor",
+    "pluralName": "invertors",
+    "displayName": "Invertor",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "inv_marka": {
+      "type": "string"
+    },
+    "inv_fiyat": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "firmas",
+  "info": {
+    "singularName": "firma",
+    "pluralName": "firmas",
+    "displayName": "firma",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firma_name": {
+      "type": "string"
+    },
+    "firma_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "firma_yetkili": {
+      "type": "string"
+    },
+    "firma_adres": {
+      "type": "string"
+    },
+    "firma_sabit_tel": {
+      "type": "string"
+    },
+    "firm_mobil_tel": {
+      "type": "string"
+    },
+    "firma_eposta": {
+      "type": "string"
+    },
+    "sirma_website": {
+      "type": "string"
+    },
+    "firma_unvan": {
+      "type": "string"
+    }
+  }
+}

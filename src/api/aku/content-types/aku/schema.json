@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "akus",
+  "info": {
+    "singularName": "aku",
+    "pluralName": "akus",
+    "displayName": "Aku",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aku_marka": {
+      "type": "string"
+    },
+    "aku_fiyat": {
+      "type": "decimal",
+      "min": 0
+    }
+  }
+}

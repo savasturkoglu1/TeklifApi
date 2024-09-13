@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_invertors",
+  "info": {
+    "displayName": "Invertor"
+  },
+  "options": {},
+  "attributes": {
+    "invertors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::invertor.invertor"
+    },
+    "adet": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_musteris",
+  "info": {
+    "displayName": "Musteri"
+  },
+  "options": {},
+  "attributes": {
+    "firma": {
+      "type": "string"
+    },
+    "yetkili": {
+      "type": "string"
+    },
+    "telefon": {
+      "type": "string"
+    },
+    "eposta": {
+      "type": "string"
+    }
+  }
+}

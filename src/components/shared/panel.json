@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_panels",
+  "info": {
+    "displayName": "Panel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "paneller": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::paneller.paneller"
+    },
+    "adet": {
+      "type": "integer",
+      "min": 0
+    }
+  }
+}
